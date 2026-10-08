@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<body>
+
+  <button id="botao-tema" class="botao-tema" type="button" aria-label="Alternar modo claro e escuro">🌙</button>
+
+  <p class="rotulo">// ola, mundo</p>
+  <h1>Eu sou</h1>
+  <h1 class="nome">Arthur Costa</h1>
+  <p>17 anos - Estudante de TI no Cotemig - Apaixonado por tecnologia e sempre aprendendo algo novo.</p>
+
+  <button>VER PROJETOS</button>
+  <button>FALE COMIGO</button>
+
+ 
+  <p class="rotulo">// sobre mim</p>
+  <h2>Quem sou eu?</h2>
+  <p>
+    Tenho 17 anos e estudo no curso tecnico de Informatica no Cotemig, em Belo Horizonte. Desde cedo me apaixonei pela area de TI e estou construindo minha base para seguir minha carreira nesse setor.
+  </p>
+  <p>
+    Sou comunicativo e muito dedicado - quando começo um projeto, vou ate o fim. Busco minha primeira oportunidade de estagio em TI.
+  </p>
+
+  <p><strong>Escola:</strong> Cotemig - Tecnico em Informatica</p>
+  <p><strong>Cidade:</strong> Belo Horizonte, MG</p>
+  <p><strong>Idade:</strong> 17 anos</p>
+  <p><strong>Objetivo:</strong> Estagio em TI</p>
+
+
+  <p class="rotulo">// habilidades</p>
+  <h2>O que eu sei</h2>
+
+  <p class="sub">hard skills</p>
+  <ul class="tags">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Git</li>
+    <li>SQL</li>
+  </ul>
+  
+  <p class="sub">soft skills</p>
+  <ul class="tags roxo">
+    <li>Comunicativo</li>
+    <li>Dedicado</li>
+    <li>Trabalho em equipe</li>
+    <li>Proativo</li>
+    <li>Aprendizado rápido</li>
+    <li>Organizado</li>
+  </ul>
+
+   <p class="rotulo" id="projetos">// projetos</p>
+  <h2>O que eu construí</h2>
+
+  <div class="projetos">
+    <article class="cartao">
+      <h3>Calculadora Web</h3>
+      <p>Calculadora funcional desenvolvida com HTML, CSS e JavaScript puro.</p>
+      <ul class="tags pequeno">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </article>
+
+    <article class="cartao">
+      <h3>Sistema de Cadastro</h3>
+      <p>Aplicação para cadastro e gerenciamento de dados usando Python e SQLite.</p>
+      <ul class="tags pequeno">
+        <li>Python</li>
+        <li>SQL</li>
+      </ul>
+    </article>
+
+    <article class="cartao">
+      <h3>Landing Page</h3>
+      <p>Página de apresentação responsiva com animações em CSS.</p>
+      <ul class="tags pequeno">
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </article>
+
+    <article class="cartao">
+      <h3>Portfólio Pessoal</h3>
+      <p>Este site que você está vendo agora, feito com React e Tailwind.</p>
+      <ul class="tags pequeno">
+        <li>React</li>
+        <li>TypeScript</li>
+        <li>Tailwind</li>
+      </ul>
+    </article>
+  </div>
+
+  <p class="rotulo">// contato</p>
+  <h2>Fale comigo</h2>
+
+  <form id="formulario" novalidate>
+    <label>NOME</label>
+    <input type="texto" id="nome"> 
+
+    <label>E-MAIL</label>
+    <input type="email" id="email"> 
+
+
+    <label>TELEFONE</label>
+    <input type="tel" id="telefone" placeholder="(31) 99999-9999">
+
+    <label>MENSAGEM</label>
+    <textarea id="mensagem" maxlength="300"></textarea> 
+
+  
+    <button type="submit">ENVIAR MENSAGEM</button>
+  </form>
+
+
+  <dialog id="modal">
+    <div class="modal-conteudo">
+      <h3 id="modal-titulo"></h3>
+      <p id="modal-texto"></p>
+      <button type="button" id="modal-fechar">FECHAR</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+
+</body>
